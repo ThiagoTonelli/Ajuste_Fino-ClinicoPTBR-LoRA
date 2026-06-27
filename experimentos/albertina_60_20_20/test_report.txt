@@ -1,0 +1,74 @@
+RELATÓRIO FINAL TESTE (Divisão 60/20/20 por Documentos) - exp_albertina_lora_60_20_20_bruto
+==================================================
+Modelo: PORTULAN/albertina-100m-portuguese-ptbr-encoder
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'in_proj'}
+Parâmetros de Treinamento:
+  Learning Rate: 3e-05
+  Batch Size Treino: 4
+  Batch Size Eval: 4
+  Épocas: 10
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+F1 Geral: 0.2746
+Precision Geral: 0.3053
+Recall Geral: 0.2495
+Accuracy Geral: 0.5802
+
+Métricas por Categoria:
+  ACTI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ANAT:
+    F1: 0.2062
+    Precision: 0.2762
+    Recall: 0.1645
+  CHEM:
+    F1: 0.4093
+    Precision: 0.5924
+    Recall: 0.3127
+  CONC:
+    F1: 0.3758
+    Precision: 0.4294
+    Recall: 0.3341
+  DEVI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  DISO:
+    F1: 0.3386
+    Precision: 0.3020
+    Recall: 0.3853
+  LIVB:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  OBJC:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  OCCU:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ORGA:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  PHEN:
+    F1: 0.2367
+    Precision: 0.2495
+    Recall: 0.2251
+  PHYS:
+    F1: 0.4113
+    Precision: 0.7449
+    Recall: 0.2840
+  PROC:
+    F1: 0.0895
+    Precision: 0.1165
+    Recall: 0.0727

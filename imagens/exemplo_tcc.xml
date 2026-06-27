@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATIONS>
+<TEXT>APRESENTOU MELHORA SIGNIFICATIVA COM CONTROLE DEA FV E DIURÉTICO ENDOVENOSO.</TEXT>
+<TAGS>
+<annotation id="23810" tag="Finding" start="11" end="32" text="MELHORA SIGNIFICATIVA" abbr="" />
+<annotation id="23798" tag="Health Care Activity" start="37" end="45" text="CONTROLE" abbr="" />
+<annotation id="23799" tag="Abbreviation|Medical Device" start="46" end="49" text="DEA" abbr="" />
+<annotation id="23800" tag="Abbreviation" start="50" end="52" text="FV" abbr="" />
+<annotation id="23811" tag="Pharmacologic Substance" start="55" end="75" text="DIURÉTICO ENDOVENOSO" abbr="" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="23799" annotation2="23798" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

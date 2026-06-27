@@ -1,0 +1,82 @@
+RELATORIO FINAL TESTE (Sem Ajuste Fino) - biobert_sem-ajuste
+==================================================
+Modelo: pucpr/biobertpt-all
+Configuracao: Modelo base sem ajuste fino
+==================================================
+Loss Geral: 6.705447196960449
+F1 Geral: 0.020844129671215524
+Precision Geral: 0.013755367253106356
+Recall Geral: 0.04300819769514078
+Accuracy Geral: 0.024680970410882064
+
+Metricas por Categoria:
+  ACTI:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 14
+  ANAT:
+    F1: 0.012565971349585323
+    Precision: 0.007416196974191634
+    Recall: 0.04111842105263158
+    Support: 608
+  CHEM:
+    F1: 0.0136986301369863
+    Precision: 0.008928571428571428
+    Recall: 0.029411764705882353
+    Support: 646
+  CONC:
+    F1: 0.021714922048997772
+    Precision: 0.016897746967071057
+    Recall: 0.030373831775700934
+    Support: 1284
+  DEVI:
+    F1: 0.0018656716417910447
+    Precision: 0.000999000999000999
+    Recall: 0.014084507042253521
+    Support: 71
+  DISO:
+    F1: 0.057412790697674417
+    Precision: 0.05596882748848742
+    Recall: 0.05893323386795972
+    Support: 2681
+  LIVB:
+    F1: 0.02974247370330069
+    Precision: 0.016775777414075287
+    Recall: 0.13099041533546327
+    Support: 313
+  OBJC:
+    F1: 0.0022701475595913734
+    Precision: 0.0011792452830188679
+    Recall: 0.030303030303030304
+    Support: 33
+  OCCU:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 0
+  ORGA:
+    F1: 0.0012180267965895251
+    Precision: 0.00065359477124183
+    Recall: 0.008928571428571428
+    Support: 112
+  PHEN:
+    F1: 0.007589025102159953
+    Precision: 0.004571026722925457
+    Recall: 0.022336769759450172
+    Support: 582
+  PHYS:
+    F1: 0.009298998569384837
+    Precision: 0.004873477038425492
+    Recall: 0.10116731517509728
+    Support: 257
+  PROC:
+    F1: 0.029897718332022028
+    Precision: 0.05234159779614325
+    Recall: 0.02092511013215859
+    Support: 1816
+
+Informacoes de Execucao:
+  Runtime: 14.6912
+  Samples por Segundo: 118.166
+  Steps por Segundo: 7.419

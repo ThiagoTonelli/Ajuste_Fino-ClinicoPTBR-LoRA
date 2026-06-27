@@ -1,0 +1,16 @@
+<relato>
+    Paciente do sexo masculino, 45 anos, deu entrada no pronto-socorro apresentando
+    <EM ID="1" CATEG="ABSTRACAO">febre</EM>,
+    <EM ID="2" CATEG="ABSTRACAO">fadiga</EM> e
+    <EM ID="3" CATEG="ABSTRACAO">dor no peito</EM> há três dias.
+    Após avaliação clínica e realização de eletrocardiograma,
+    foi levantada a suspeita de
+    <EM ID="5" CATEG="ABSTRACAO">infarto agudo do miocárdio</EM>.
+    O paciente recebeu
+    <EM ID="6" CATEG="COISA">ácido acetilsalicílico</EM> e
+    <EM ID="7" CATEG="COISA">heparina</EM>, sendo encaminhado para
+    <EM ID="8" CATEG="EVENTO">internação hospitalar</EM> para monitoramento contínuo.
+</relato>
+
+
+

@@ -1,0 +1,144 @@
+RELATÓRIO FINAL CROSS-VALIDATION - exp_cv_albertina
+==================================================
+Modelo: PORTULAN/albertina-100m-portuguese-ptbr-encoder
+Épocas: 10
+Folds: 5
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'in_proj'}
+Parâmetros de Treinamento:
+  Learning Rate: 0.0003
+  Batch Size Treino: 4
+  Batch Size Eval: 4
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+Média F1 Geral: 0.4501 (+/- 0.0100)
+
+Métricas Médias por Categoria:
+  ACTI:
+    F1: 0.0000 (+/- 0.0000)
+    Precision: 0.0000 (+/- 0.0000)
+    Recall: 0.0000 (+/- 0.0000)
+  ANAT:
+    F1: 0.3601 (+/- 0.0340)
+    Precision: 0.3760 (+/- 0.0352)
+    Recall: 0.3474 (+/- 0.0414)
+  CHEM:
+    F1: 0.6998 (+/- 0.0161)
+    Precision: 0.7615 (+/- 0.0316)
+    Recall: 0.6480 (+/- 0.0150)
+  CONC:
+    F1: 0.5368 (+/- 0.0284)
+    Precision: 0.5744 (+/- 0.0337)
+    Recall: 0.5043 (+/- 0.0286)
+  DEVI:
+    F1: 0.1968 (+/- 0.0537)
+    Precision: 0.7080 (+/- 0.1320)
+    Recall: 0.1147 (+/- 0.0334)
+  DISO:
+    F1: 0.4722 (+/- 0.0105)
+    Precision: 0.4239 (+/- 0.0095)
+    Recall: 0.5330 (+/- 0.0140)
+  LIVB:
+    F1: 0.2560 (+/- 0.0262)
+    Precision: 0.5739 (+/- 0.0243)
+    Recall: 0.1651 (+/- 0.0202)
+  OBJC:
+    F1: 0.0000 (+/- 0.0000)
+    Precision: 0.0000 (+/- 0.0000)
+    Recall: 0.0000 (+/- 0.0000)
+  OCCU:
+    F1: 0.0000 (+/- 0.0000)
+    Precision: 0.0000 (+/- 0.0000)
+    Recall: 0.0000 (+/- 0.0000)
+  ORGA:
+    F1: 0.2965 (+/- 0.0379)
+    Precision: 0.4252 (+/- 0.0673)
+    Recall: 0.2295 (+/- 0.0316)
+  PHEN:
+    F1: 0.5208 (+/- 0.0208)
+    Precision: 0.4977 (+/- 0.0383)
+    Recall: 0.5482 (+/- 0.0099)
+  PHYS:
+    F1: 0.6423 (+/- 0.0215)
+    Precision: 0.7147 (+/- 0.0400)
+    Recall: 0.5843 (+/- 0.0211)
+  PROC:
+    F1: 0.2866 (+/- 0.0179)
+    Precision: 0.3043 (+/- 0.0198)
+    Recall: 0.2708 (+/- 0.0164)
+
+Detalhes por Fold:
+Fold 1: F1=0.4399, Precision=0.4437, Recall=0.4361, Accuracy=0.6744
+  - ACTI: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ANAT: F1=0.3985, Precision=0.3996, Recall=0.3974
+  - CHEM: F1=0.6721, Precision=0.7027, Recall=0.6441
+  - CONC: F1=0.5027, Precision=0.5374, Recall=0.4722
+  - DEVI: F1=0.2581, Precision=0.8000, Recall=0.1538
+  - DISO: F1=0.4656, Precision=0.4235, Recall=0.5169
+  - LIVB: F1=0.2783, Precision=0.5818, Recall=0.1829
+  - OBJC: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - OCCU: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ORGA: F1=0.2973, Precision=0.4314, Recall=0.2268
+  - PHEN: F1=0.5344, Precision=0.5258, Recall=0.5433
+  - PHYS: F1=0.6461, Precision=0.7188, Recall=0.5867
+  - PROC: F1=0.2622, Precision=0.2762, Recall=0.2496
+Fold 2: F1=0.4664, Precision=0.4681, Recall=0.4647, Accuracy=0.6882
+  - ACTI: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ANAT: F1=0.3980, Precision=0.3973, Recall=0.3986
+  - CHEM: F1=0.6913, Precision=0.7758, Recall=0.6234
+  - CONC: F1=0.5803, Precision=0.6196, Recall=0.5457
+  - DEVI: F1=0.2549, Precision=0.8125, Recall=0.1512
+  - DISO: F1=0.4838, Precision=0.4364, Recall=0.5426
+  - LIVB: F1=0.2779, Precision=0.5755, Recall=0.1832
+  - OBJC: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - OCCU: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ORGA: F1=0.3636, Precision=0.5424, Recall=0.2735
+  - PHEN: F1=0.5185, Precision=0.4836, Recall=0.5586
+  - PHYS: F1=0.6750, Precision=0.7500, Recall=0.6136
+  - PROC: F1=0.3082, Precision=0.3274, Recall=0.2911
+Fold 3: F1=0.4563, Precision=0.4559, Recall=0.4567, Accuracy=0.6745
+  - ACTI: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ANAT: F1=0.3098, Precision=0.3065, Recall=0.3133
+  - CHEM: F1=0.7153, Precision=0.7803, Recall=0.6603
+  - CONC: F1=0.5517, Precision=0.5745, Recall=0.5306
+  - DEVI: F1=0.1370, Precision=0.5556, Recall=0.0781
+  - DISO: F1=0.4833, Precision=0.4291, Recall=0.5530
+  - LIVB: F1=0.2315, Precision=0.5814, Recall=0.1445
+  - OBJC: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - OCCU: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ORGA: F1=0.2771, Precision=0.4340, Recall=0.2035
+  - PHEN: F1=0.5374, Precision=0.5178, Recall=0.5585
+  - PHYS: F1=0.6089, Precision=0.6685, Recall=0.5591
+  - PROC: F1=0.2968, Precision=0.3169, Recall=0.2791
+Fold 4: F1=0.4464, Precision=0.4566, Recall=0.4367, Accuracy=0.6761
+  - ACTI: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ANAT: F1=0.3496, Precision=0.3941, Recall=0.3142
+  - CHEM: F1=0.7114, Precision=0.7921, Recall=0.6456
+  - CONC: F1=0.5399, Precision=0.6038, Recall=0.4882
+  - DEVI: F1=0.1359, Precision=0.5385, Recall=0.0778
+  - DISO: F1=0.4719, Precision=0.4225, Recall=0.5345
+  - LIVB: F1=0.2175, Precision=0.5287, Recall=0.1369
+  - OBJC: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - OCCU: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ORGA: F1=0.2484, Precision=0.3654, Recall=0.1881
+  - PHEN: F1=0.5324, Precision=0.5324, Recall=0.5324
+  - PHYS: F1=0.6485, Precision=0.7661, Recall=0.5622
+  - PROC: F1=0.2684, Precision=0.2855, Recall=0.2532
+Fold 5: F1=0.4413, Precision=0.4416, Recall=0.4410, Accuracy=0.6683
+  - ACTI: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ANAT: F1=0.3444, Precision=0.3823, Recall=0.3133
+  - CHEM: F1=0.7088, Precision=0.7566, Recall=0.6667
+  - CONC: F1=0.5095, Precision=0.5369, Recall=0.4847
+  - DEVI: F1=0.1980, Precision=0.8333, Recall=0.1124
+  - DISO: F1=0.4564, Precision=0.4077, Recall=0.5181
+  - LIVB: F1=0.2751, Precision=0.6020, Recall=0.1782
+  - OBJC: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - OCCU: F1=0.0000, Precision=0.0000, Recall=0.0000
+  - ORGA: F1=0.2963, Precision=0.3529, Recall=0.2553
+  - PHEN: F1=0.4812, Precision=0.4288, Recall=0.5481
+  - PHYS: F1=0.6332, Precision=0.6702, Recall=0.6000
+  - PROC: F1=0.2973, Precision=0.3157, Recall=0.2809

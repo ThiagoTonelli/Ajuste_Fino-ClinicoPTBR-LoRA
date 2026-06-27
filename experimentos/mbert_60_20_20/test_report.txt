@@ -1,0 +1,74 @@
+RELATÓRIO FINAL TESTE (Divisão 60/20/20 por Documentos) - exp_mbert_lora_60_20_20
+==================================================
+Modelo: bert-base-multilingual-cased
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'value', 'query'}
+Parâmetros de Treinamento:
+  Learning Rate: 3e-05
+  Batch Size Treino: 4
+  Batch Size Eval: 4
+  Épocas: 10
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+F1 Geral: 0.3513
+Precision Geral: 0.3524
+Recall Geral: 0.3501
+Accuracy Geral: 0.6332
+
+Métricas por Categoria:
+  ACTI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ANAT:
+    F1: 0.2803
+    Precision: 0.3456
+    Recall: 0.2358
+  CHEM:
+    F1: 0.5466
+    Precision: 0.6736
+    Recall: 0.4600
+  CONC:
+    F1: 0.4044
+    Precision: 0.4347
+    Recall: 0.3781
+  DEVI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  DISO:
+    F1: 0.4042
+    Precision: 0.3381
+    Recall: 0.5024
+  LIVB:
+    F1: 0.2577
+    Precision: 0.5556
+    Recall: 0.1678
+  OBJC:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  OCCU:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ORGA:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  PHEN:
+    F1: 0.2997
+    Precision: 0.3618
+    Recall: 0.2558
+  PHYS:
+    F1: 0.2541
+    Precision: 0.7800
+    Recall: 0.1518
+  PROC:
+    F1: 0.2339
+    Precision: 0.2328
+    Recall: 0.2349

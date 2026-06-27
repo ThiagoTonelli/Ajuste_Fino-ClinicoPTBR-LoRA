@@ -1,0 +1,202 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram id="taxonomia_tcc" name="Página-1">
+    <mxGraphModel dx="1175" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SGR_100" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="DISO (Desordens)" vertex="1">
+          <mxGeometry height="203" width="180" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_100" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Finding" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_101" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Sign / Symptom" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_102" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Disease / Syndrome" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_103" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Injury" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_104" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Pathologic Func." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_105" parent="SGR_100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Abnormality" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_107" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="PROC (Procedimentos)" vertex="1">
+          <mxGeometry height="203" width="180" x="235" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_107" parent="SGR_107" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Therapeutic Proc." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_108" parent="SGR_107" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Diagnostic Proc." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_109" parent="SGR_107" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Health Care Activity" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_110" parent="SGR_107" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Lab Procedure" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_111" parent="SGR_107" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Educational Act." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_113" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="CHEM (Fármacos)" vertex="1">
+          <mxGeometry height="203" width="180" x="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_113" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Pharmacologic Sub." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_114" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Organic Chemical" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_115" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Clinical Drug" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_116" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Antibiotic" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_117" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Hormone" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_118" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Vitamin" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_119" parent="SGR_113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Enzyme" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_121" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="CONC (Conceitos)" vertex="1">
+          <mxGeometry height="203" width="180" x="625" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_121" parent="SGR_121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Quantitative" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_122" parent="SGR_121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Temporal" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_123" parent="SGR_121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Qualitative" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_124" parent="SGR_121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Spatial" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_125" parent="SGR_121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Functional" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_127" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="ANAT (Anatomia)" vertex="1">
+          <mxGeometry height="232" width="180" x="40" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_127" parent="SGR_127" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Body Part / Organ" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_128" parent="SGR_127" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Body Location" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_129" parent="SGR_127" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Tissue" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_130" parent="SGR_127" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Cell" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_131" parent="SGR_127" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Body System" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_133" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="PHEN (Fenômenos)" vertex="1">
+          <mxGeometry height="82" width="180" x="430" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_133" parent="SGR_133" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Laboratory Result" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_134" parent="SGR_133" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Phenomenon / Process" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_136" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="LIVB (Seres Vivos)" vertex="1">
+          <mxGeometry height="232" width="180" x="430" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_136" parent="SGR_136" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Patient Group" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_137" parent="SGR_136" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Professional Group" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_138" parent="SGR_136" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Family Group" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_139" parent="SGR_136" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Bacterium / Virus" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_140" parent="SGR_136" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Plant" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_142" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="PHYS (Fisiologia)" vertex="1">
+          <mxGeometry height="232" width="180" x="625" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_142" parent="SGR_142" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Clinical Attribute" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_143" parent="SGR_142" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Physiologic Func." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_144" parent="SGR_142" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Mental Process" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_145" parent="SGR_142" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Organism Func." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_147" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="ORGA (Organizações)" vertex="1">
+          <mxGeometry height="84" width="180" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_147" parent="SGR_147" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Health Care Org." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_148" parent="SGR_147" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Organization" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_150" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="DEVI (Dispositivos)" vertex="1">
+          <mxGeometry height="84" width="180" x="235" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_150" parent="SGR_150" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Medical Device" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_151" parent="SGR_150" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Drug Delivery" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_153" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="OBJC (Objetos)" vertex="1">
+          <mxGeometry height="112" width="180" x="235" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_153" parent="SGR_153" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Manufactured Object" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_154" parent="SGR_153" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Substance" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_155" parent="SGR_153" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Entity" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_157" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="ACTI (Atividades)" vertex="1">
+          <mxGeometry height="113" width="180" x="235" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_157" parent="SGR_157" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Daily Activity" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_158" parent="SGR_157" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Behavior" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_159" parent="SGR_157" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Event" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="SGR_161" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;fontStyle=1;shadow=0;rounded=1;" value="OCCU (Ocupações)" vertex="1">
+          <mxGeometry height="83" width="180" x="625" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_161" parent="SGR_161" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Biomedical Occup." vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="STY_162" parent="SGR_161" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;fontColor=#2C3E50;shadow=0;fontSize=11;" value="Discipline" vertex="1">
+          <mxGeometry height="20" width="164" x="8" y="57" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

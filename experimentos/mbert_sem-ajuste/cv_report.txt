@@ -1,0 +1,82 @@
+RELATORIO FINAL TESTE (Sem Ajuste Fino) - mbert_sem-ajuste
+==================================================
+Modelo: google-bert/bert-base-multilingual-cased
+Configuracao: Modelo base sem ajuste fino
+==================================================
+Loss Geral: 6.636549949645996
+F1 Geral: 0.014397590361445785
+Precision Geral: 0.009643707380058911
+Recall Geral: 0.028394915052869195
+Accuracy Geral: 0.018861309774225215
+
+Metricas por Categoria:
+  ACTI:
+    F1: 0.0010030090270812437
+    Precision: 0.000505050505050505
+    Recall: 0.07142857142857142
+    Support: 14
+  ANAT:
+    F1: 0.015100671140939596
+    Precision: 0.010135135135135136
+    Recall: 0.029605263157894735
+    Support: 608
+  CHEM:
+    F1: 0.004640371229698376
+    Precision: 0.009259259259259259
+    Recall: 0.0030959752321981426
+    Support: 646
+  CONC:
+    F1: 0.012400354295837022
+    Precision: 0.009985734664764621
+    Recall: 0.016355140186915886
+    Support: 1284
+  DEVI:
+    F1: 0.000517063081695967
+    Precision: 0.0002633658151171978
+    Recall: 0.014084507042253521
+    Support: 71
+  DISO:
+    F1: 0.033818938605619145
+    Precision: 0.05588993981083405
+    Recall: 0.02424468481909735
+    Support: 2681
+  LIVB:
+    F1: 0.009034443817052512
+    Precision: 0.004726037512922759
+    Recall: 0.10223642172523961
+    Support: 313
+  OBJC:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 33
+  OCCU:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 0
+  ORGA:
+    F1: 0.004553734061930784
+    Precision: 0.0023992322456813818
+    Recall: 0.044642857142857144
+    Support: 112
+  PHEN:
+    F1: 0.0009267840593141797
+    Precision: 0.0006345177664974619
+    Recall: 0.001718213058419244
+    Support: 582
+  PHYS:
+    F1: 0.017605633802816902
+    Precision: 0.011376564277588168
+    Recall: 0.038910505836575876
+    Support: 257
+  PROC:
+    F1: 0.04254228600717581
+    Precision: 0.03978906999041227
+    Recall: 0.045704845814977975
+    Support: 1816
+
+Informacoes de Execucao:
+  Runtime: 15.2845
+  Samples por Segundo: 113.579
+  Steps por Segundo: 7.131

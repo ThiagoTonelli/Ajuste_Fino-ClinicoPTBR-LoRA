@@ -1,0 +1,74 @@
+RELATÓRIO FINAL TESTE (Divisão 80/20 por Documentos) - exp_biobertpt_lora_80_20_bruto
+==================================================
+Modelo: pucpr/biobertpt-all
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'value', 'query'}
+Parâmetros de Treinamento:
+  Learning Rate: 0.0003
+  Batch Size Treino: 16
+  Batch Size Eval: 16
+  Épocas: 10
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+F1 Geral: 0.5998
+Precision Geral: 0.5873
+Recall Geral: 0.6128
+Accuracy Geral: 0.7511
+
+Métricas por Categoria:
+  ACTI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ANAT:
+    F1: 0.5340
+    Precision: 0.5194
+    Recall: 0.5493
+  CHEM:
+    F1: 0.8214
+    Precision: 0.7792
+    Recall: 0.8684
+  CONC:
+    F1: 0.5027
+    Precision: 0.5327
+    Recall: 0.4759
+  DEVI:
+    F1: 0.1400
+    Precision: 0.2414
+    Recall: 0.0986
+  DISO:
+    F1: 0.6552
+    Precision: 0.6094
+    Recall: 0.7083
+  LIVB:
+    F1: 0.6244
+    Precision: 0.6195
+    Recall: 0.6294
+  OBJC:
+    F1: 0.1463
+    Precision: 0.3750
+    Recall: 0.0909
+  OCCU:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ORGA:
+    F1: 0.5852
+    Precision: 0.5726
+    Recall: 0.5982
+  PHEN:
+    F1: 0.5007
+    Precision: 0.4401
+    Recall: 0.5808
+  PHYS:
+    F1: 0.5941
+    Precision: 0.8163
+    Recall: 0.4669
+  PROC:
+    F1: 0.5696
+    Precision: 0.5772
+    Recall: 0.5622

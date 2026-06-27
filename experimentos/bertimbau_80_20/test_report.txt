@@ -1,0 +1,74 @@
+RELATÓRIO FINAL TESTE (Divisão 80/20 por Documentos) - exp_bertimbau_lora_80_20_bruto
+==================================================
+Modelo: neuralmind/bert-base-portuguese-cased
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'query', 'value'}
+Parâmetros de Treinamento:
+  Learning Rate: 0.0003
+  Batch Size Treino: 16
+  Batch Size Eval: 16
+  Épocas: 10
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+F1 Geral: 0.5430
+Precision Geral: 0.5388
+Recall Geral: 0.5472
+Accuracy Geral: 0.7223
+
+Métricas por Categoria:
+  ACTI:
+    F1: 0.1250
+    Precision: 0.5000
+    Recall: 0.0714
+  ANAT:
+    F1: 0.4953
+    Precision: 0.5114
+    Recall: 0.4803
+  CHEM:
+    F1: 0.7805
+    Precision: 0.7562
+    Recall: 0.8065
+  CONC:
+    F1: 0.4731
+    Precision: 0.5094
+    Recall: 0.4416
+  DEVI:
+    F1: 0.1495
+    Precision: 0.2222
+    Recall: 0.1127
+  DISO:
+    F1: 0.5920
+    Precision: 0.5638
+    Recall: 0.6233
+  LIVB:
+    F1: 0.5490
+    Precision: 0.5619
+    Recall: 0.5367
+  OBJC:
+    F1: 0.0588
+    Precision: 1.0000
+    Recall: 0.0303
+  OCCU:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ORGA:
+    F1: 0.6055
+    Precision: 0.6226
+    Recall: 0.5893
+  PHEN:
+    F1: 0.4549
+    Precision: 0.3776
+    Recall: 0.5722
+  PHYS:
+    F1: 0.5856
+    Precision: 0.8082
+    Recall: 0.4591
+  PROC:
+    F1: 0.4838
+    Precision: 0.4945
+    Recall: 0.4736

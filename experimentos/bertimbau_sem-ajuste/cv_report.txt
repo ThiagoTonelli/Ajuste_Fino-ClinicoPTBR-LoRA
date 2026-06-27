@@ -1,0 +1,82 @@
+RELAT?RIO FINAL TESTE (Sem Ajuste Fino) - bertimbau_sem-ajuste
+==================================================
+Modelo: neuralmind/bert-base-portuguese-cased
+Configuracao: Modelo base sem ajuste fino
+==================================================
+Loss Geral: 6.51534366607666
+F1 Geral: 0.018532772810705193
+Precision Geral: 0.012341784629943614
+Recall Geral: 0.037186646073422834
+Accuracy Geral: 0.039300238395736924
+
+Metricas por Categoria:
+  ACTI:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 14
+  ANAT:
+    F1: 0.01637107776261937
+    Precision: 0.013986013986013986
+    Recall: 0.019736842105263157
+    Support: 608
+  CHEM:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 646
+  CONC:
+    F1: 0.042389914123880865
+    Precision: 0.027691573167820484
+    Recall: 0.09034267912772585
+    Support: 1284
+  DEVI:
+    F1: 0.0021978021978021974
+    Precision: 0.0011918951132300357
+    Recall: 0.014084507042253521
+    Support: 71
+  DISO:
+    F1: 0.04935476567806204
+    Precision: 0.06278801843317973
+    Recall: 0.040656471465870946
+    Support: 2681
+  LIVB:
+    F1: 0.03941267387944359
+    Precision: 0.02241758241758242
+    Recall: 0.16293929712460065
+    Support: 313
+  OBJC:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 33
+  OCCU:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 0
+  ORGA:
+    F1: 0.0036787247087676275
+    Precision: 0.0019749835418038184
+    Recall: 0.026785714285714284
+    Support: 112
+  PHEN:
+    F1: 0.0026867275658248257
+    Precision: 0.0015923566878980893
+    Recall: 0.00859106529209622
+    Support: 582
+  PHYS:
+    F1: 0.0026169447170428526
+    Precision: 0.0013658869728529965
+    Recall: 0.0311284046692607
+    Support: 257
+  PROC:
+    F1: 0.007032967032967034
+    Precision: 0.017429193899782137
+    Recall: 0.004405286343612335
+    Support: 1816
+
+Informacoes de Execucao:
+  Runtime: 12.2788
+  Samples por Segundo: 141.382
+  Steps por Segundo: 8.877

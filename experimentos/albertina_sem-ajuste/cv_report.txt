@@ -1,0 +1,82 @@
+RELATORIO FINAL TESTE (Sem Ajuste Fino) - albertina_sem-ajuste
+==================================================
+Modelo: PORTULAN/albertina-100m-portuguese-ptbr-encoder
+Configuracao: Modelo base sem ajuste fino
+==================================================
+Loss Geral: 6.779118537902832
+F1 Geral: 0.02440715573429483
+Precision Geral: 0.015920109993487228
+Recall Geral: 0.05227515741950814
+Accuracy Geral: 0.03172766792876174
+
+Metricas por Categoria:
+  ACTI:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 14
+  ANAT:
+    F1: 0.009287925696594427
+    Precision: 0.07894736842105263
+    Recall: 0.004934210526315789
+    Support: 608
+  CHEM:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 646
+  CONC:
+    F1: 0.026387625113739765
+    Precision: 0.03172866520787746
+    Recall: 0.022585669781931463
+    Support: 1284
+  DEVI:
+    F1: 0.001655971848478576
+    Precision: 0.0008403361344537816
+    Recall: 0.056338028169014086
+    Support: 71
+  DISO:
+    F1: 0.08741258741258741
+    Precision: 0.0657030223390276
+    Recall: 0.13054830287206268
+    Support: 2681
+  LIVB:
+    F1: 0.0050377833753148605
+    Precision: 0.011904761904761904
+    Recall: 0.003194888178913738
+    Support: 313
+  OBJC:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 33
+  OCCU:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 0
+  ORGA:
+    F1: 0.011937557392102848
+    Precision: 0.0062923523717328175
+    Recall: 0.11607142857142858
+    Support: 112
+  PHEN:
+    F1: 0.0016455980252823698
+    Precision: 0.0008602486900758583
+    Recall: 0.018900343642611683
+    Support: 582
+  PHYS:
+    F1: 0.018575851393188857
+    Precision: 0.045454545454545456
+    Recall: 0.011673151750972763
+    Support: 257
+  PROC:
+    F1: 0.01951219512195122
+    Precision: 0.030624263839811542
+    Recall: 0.014317180616740088
+    Support: 1816
+
+Informacoes de Execucao:
+  Runtime: 10.7956
+  Samples por Segundo: 160.806
+  Steps por Segundo: 10.097

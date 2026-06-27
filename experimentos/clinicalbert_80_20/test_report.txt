@@ -1,0 +1,74 @@
+RELATÓRIO FINAL TESTE (Divisão 80/20 por Documentos) - exp_clinicalbert_lora_80_20_bruto
+==================================================
+Modelo: medicalai/ClinicalBERT
+Parâmetros do LoRA:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: {'q_lin', 'v_lin'}
+Parâmetros de Treinamento:
+  Learning Rate: 0.0003
+  Batch Size Treino: 16
+  Batch Size Eval: 16
+  Épocas: 10
+  Weight Decay: 0.01
+  Semente: 42
+==================================================
+F1 Geral: 0.4579
+Precision Geral: 0.4524
+Recall Geral: 0.4635
+Accuracy Geral: 0.6778
+
+Métricas por Categoria:
+  ACTI:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ANAT:
+    F1: 0.3964
+    Precision: 0.4406
+    Recall: 0.3602
+  CHEM:
+    F1: 0.6824
+    Precision: 0.6916
+    Recall: 0.6734
+  CONC:
+    F1: 0.4570
+    Precision: 0.5014
+    Recall: 0.4198
+  DEVI:
+    F1: 0.1905
+    Precision: 0.6154
+    Recall: 0.1127
+  DISO:
+    F1: 0.4990
+    Precision: 0.4468
+    Recall: 0.5651
+  LIVB:
+    F1: 0.4525
+    Precision: 0.5587
+    Recall: 0.3802
+  OBJC:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  OCCU:
+    F1: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+  ORGA:
+    F1: 0.2930
+    Precision: 0.5111
+    Recall: 0.2054
+  PHEN:
+    F1: 0.4271
+    Precision: 0.3797
+    Recall: 0.4880
+  PHYS:
+    F1: 0.5915
+    Precision: 0.8310
+    Recall: 0.4591
+  PROC:
+    F1: 0.3478
+    Precision: 0.3428
+    Recall: 0.3530

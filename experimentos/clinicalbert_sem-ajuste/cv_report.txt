@@ -1,0 +1,82 @@
+RELATORIO FINAL TESTE (Sem Ajuste Fino) - clinicalbert_sem-ajuste
+==================================================
+Modelo: medicalai/ClinicalBERT
+Configuracao: Modelo base sem ajuste fino
+==================================================
+Loss Geral: 6.423915863037109
+F1 Geral: 0.017660180939397696
+Precision Geral: 0.011945177920281654
+Recall Geral: 0.033860045146726865
+Accuracy Geral: 0.06044033094937597
+
+Metricas por Categoria:
+  ACTI:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 14
+  ANAT:
+    F1: 0.010532837670384139
+    Precision: 0.0064885496183206106
+    Recall: 0.027960526315789474
+    Support: 608
+  CHEM:
+    F1: 0.009107468123861567
+    Precision: 0.005339028296849973
+    Recall: 0.030959752321981424
+    Support: 646
+  CONC:
+    F1: 0.026592797783933517
+    Precision: 0.02063628546861565
+    Recall: 0.037383177570093455
+    Support: 1284
+  DEVI:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 71
+  DISO:
+    F1: 0.04004665629860031
+    Precision: 0.04181892001624036
+    Recall: 0.038418500559492724
+    Support: 2681
+  LIVB:
+    F1: 0.010899182561307902
+    Precision: 0.0062056737588652485
+    Recall: 0.04472843450479233
+    Support: 313
+  OBJC:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 33
+  OCCU:
+    F1: 0.0
+    Precision: 0.0
+    Recall: 0.0
+    Support: 0
+  ORGA:
+    F1: 0.0024798512089274642
+    Precision: 0.0013324450366422385
+    Recall: 0.017857142857142856
+    Support: 112
+  PHEN:
+    F1: 0.006752194463200541
+    Precision: 0.0055617352614015575
+    Recall: 0.00859106529209622
+    Support: 582
+  PHYS:
+    F1: 0.009433962264150945
+    Precision: 0.005911330049261084
+    Recall: 0.023346303501945526
+    Support: 257
+  PROC:
+    F1: 0.04294478527607362
+    Precision: 0.04847645429362881
+    Recall: 0.03854625550660793
+    Support: 1816
+
+Informacoes de Execucao:
+  Runtime: 9.1625
+  Samples por Segundo: 189.467
+  Steps por Segundo: 11.896
